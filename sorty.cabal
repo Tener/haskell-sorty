@@ -49,12 +49,12 @@ Cabal-Version: >= 1.6
 
 source-repository    head
     Type:     Git
-    Location: http://github.com/Tener/haskell-package-vt.git
+    Location: http://github.com/Tener/haskell-sorty.git
 
 source-repository    this
     Type:     Git
-    Location: http://github.com/Tener/haskell-package-vt.git
-    Tag: 0.1.3.2
+    Location: http://github.com/Tener/haskell-sorty.git
+    Tag: 0.1
 
 
 executable          sorty
