@@ -1,5 +1,5 @@
 name:                sorty
-version:             0.1
+version:             0.1.1
 synopsis:            Sort lines per file size
 description:         
                      This simple tool sorts input filelines by first collumn suffixed by unit. Recognized units:
@@ -54,7 +54,7 @@ source-repository    head
 source-repository    this
     Type:     Git
     Location: http://github.com/Tener/haskell-sorty.git
-    Tag: 0.1
+    Tag: 0.1.1
 
 flag debug
       default: False
