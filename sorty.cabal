@@ -56,8 +56,12 @@ source-repository    this
     Location: http://github.com/Tener/haskell-sorty.git
     Tag: 0.1
 
+flag debug
+      default: False
 
 executable          sorty
       main-is:       sorty.hs
       build-depends: bytestring >= 0.9.1 && < 0.10,
                      base >= 4.1.0 && < 5
+      if flag(debug)
+                    cpp-options: -DDEBUG
